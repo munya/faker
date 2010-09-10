@@ -4,6 +4,6 @@ module Faker #:nodoc:
     MINOR = 3
     TINY  = 2
 
-    STRING = [MAJOR, MINOR, TINY].join('.')
+    STRING = [MAJOR, MINOR, TINY, 'yolk'].join('.')
   end
 end
